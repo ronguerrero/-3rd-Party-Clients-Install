@@ -70,4 +70,9 @@
 
 # COMMAND ----------
 
-import pymqi
+# MAGIC %sh
+# MAGIC sudo su
+
+# COMMAND ----------
+
+
