@@ -72,7 +72,3 @@
 
 # MAGIC %sh
 # MAGIC sudo su
-
-# COMMAND ----------
-
-
