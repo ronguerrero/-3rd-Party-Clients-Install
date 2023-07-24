@@ -12,9 +12,20 @@
 # MAGIC
 # MAGIC ### Setup Instructions
 # MAGIC
-# MAGIC 1 - save mqinit.sh script to dbfs  
+# MAGIC 1 - save mqinit.sh script to dbfs    
+# MAGIC example only:   
+# MAGIC
+# MAGIC <img src="https://github.com/ronguerrero/Third-Party-Clients-Install/blob/main/mq%20series/png/Init_script.png?raw=true">
+# MAGIC
+# MAGIC
 # MAGIC 2 - configure init script for the cluster  
 # MAGIC 3 - add the pymqi library to the cluster config  
+# MAGIC   
+# MAGIC example only:  
+# MAGIC <img src="https://github.com/ronguerrero/Third-Party-Clients-Install/blob/main/mq%20series/png/install_package.png?raw=true">
+# MAGIC
+# MAGIC
+# MAGIC
 # MAGIC 4 - start/restart the cluster  
 # MAGIC
 
