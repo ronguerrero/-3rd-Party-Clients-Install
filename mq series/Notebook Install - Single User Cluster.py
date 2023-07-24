@@ -1,4 +1,16 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC ### Background  
+# MAGIC
+# MAGIC The MQ Series client requires both a set of C compiled libraries plus a python package (pymqi).   
+# MAGIC The pip install of pymqi will compile the python client, but requires the C compiled libraries to exist.   
+# MAGIC Hence, the MQ libraries needs to be copied onto the driver file system, and corresponding environment variables are set for the compile to succeed.
+# MAGIC
+# MAGIC This notebook only works in a Single User Cluster!!!!!!!
+# MAGIC
+
+# COMMAND ----------
+
 # DBTITLE 1,Install MQ Distributable Client - Header Files are required for PIP install
 # MAGIC %sh
 # MAGIC cd /databricks/driver
@@ -67,8 +79,3 @@
 # COMMAND ----------
 
 # MAGIC %pip install pymqi
-
-# COMMAND ----------
-
-# MAGIC %sh
-# MAGIC sudo su
